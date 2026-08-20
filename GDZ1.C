@@ -1,11 +1,15 @@
-#include<stdio.h>?
-#include<conio.h>
-void main()
+#include <stdio.h>
+int main()
 {
-float radius=1.1;
-float area;
-clrscr();
-area=(3.14*radius*radius);
-printf("\n Area Of a Circle =%f",area);
-getch();
+int rollnum;
+float Per;
+char grade;
+rollnum = 101;
+Per= 89.75;
+grade = 'A' ;
+printf ("----- Student Information -----\n");
+printf ("\n Roll Number: %d", rollnum);
+printf("\n Percentage: %.f", Per);
+printf("\n Grade: %c", grade);
+return 0;
 }
